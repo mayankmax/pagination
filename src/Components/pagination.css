@@ -1,0 +1,33 @@
+.pagination-main {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+p {
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+p:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+p:active {
+    background-color: aquamarine;
+    color: royalblue;
+    
+}
+
+input {
+    max-width: 30px;
+    box-sizing: border-box;
+}

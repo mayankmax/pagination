@@ -1,0 +1,39 @@
+body{
+ 
+  box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+thead {
+  background-color: #0686f5;
+  color: white;
+}
+
+th, td {
+  padding: 12px; /* Increased padding */
+  text-align: left; /* Align text to the left */
+  border-bottom: 1px solid #ddd; /* Light gray bottom border */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+tbody tr:hover {
+  background-color: #ddd; /* Hover effect */
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
